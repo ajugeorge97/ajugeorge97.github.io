@@ -4,12 +4,12 @@ main:
   - title: "Education"
     url: /Education
   - title: "Projects"
-    url: /software
+    url: /Projects
 
 
 
 side:
   - title: "Home"
     url: /
-  - title: "Software"
-    url: /software
+  - title: "Projects"
+    url: /Projects
