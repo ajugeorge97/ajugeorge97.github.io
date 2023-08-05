@@ -6,7 +6,7 @@ title: ""
 # Work Experience
 
 1. ## Student Assistant - universitätsklinikum erlangen 
-    - <font color="red">Medical Image Data management</font>
+    - Medical Image Data management
     - Skills : Python
 2. ## Senior service Engineer Cyrix Health care
     - Installation and maintanence of multibrand CT scan
