@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ZTAN
-email: zhengguo.tan@gmail.com
+title: Aju George
+email: aju.george97@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Magnetic Resonance Imaging (MRI) Researcher
-twitter_username: zhengguo_tan
-github_username: ZhengguoTan
-minimal_mistakes_skin: "mint"
+  Medical Engineering student at FAU Erlangen
+twitter_username: 
+github_username: 
+minimal_mistakes_skin: "dark"
 search: false  # true
 
 # Build settings
@@ -56,24 +56,24 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name     : "Zhengguo (Frank) Tan"
-  avatar   : "/assets/images/2022_ztan.jpg"
-  bio      : "Magnetic Resonance Imaging (MRI) Researcher"
-  location : "Erlangen, Germany"
-  email    : "zhengguo.tan@gmail.com"
+  name     : "Aju George"
+  avatar   : "/assets/images/bio_pic.jpeg"
+  bio      : "Medical Engineering student at FAU Erlangen"
+  location : "Nürnberg Germany"
+  email    : "aju.george97@outlook.com "
   links:
-    - label: "Google Scholar"
-      icon: "fab fa-google"
-      url: "https://scholar.google.com/citations?user=w566GhYAAAAJ&hl=en"
+    - label: "Linked IN"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/aju-george-216501106/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/zhengguo_tan"
+      url: ""
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ZhengguoTan"
+      url: "https://github.com/ajugeorge93"
 
 defaults:
   # _posts
