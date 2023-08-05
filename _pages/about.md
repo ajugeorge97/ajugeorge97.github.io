@@ -12,6 +12,6 @@ title: ""
     - Installation and maintanence of multibrand CT scan
     - Skills: Customer management,Ttroubleshooting
 3. ## Philips India Ltd
-    - - Installation and maintanence of CT/MRI scan
+    - Installation and maintanence of CT/MRI scan
     - Skills: Customer management,Ttroubleshooting
     
