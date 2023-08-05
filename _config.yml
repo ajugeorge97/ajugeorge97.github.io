@@ -64,7 +64,7 @@ author:
   email    : "aju.george97@outlook.com "
   links:
     - label: "Linked IN"
-      icon: "fa fa-linkedin"
+      icon: "/assets/icons/linkeun.svg"
       url: "https://www.linkedin.com/in/aju-george-216501106/"
 
 footer:
