@@ -66,9 +66,14 @@ author:
       icon: "fab fa-google"
       url: "https://scholar.google.com/citations?user=w566GhYAAAAJ&hl=en"
 
-
 footer:
-
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/zhengguo_tan"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ZhengguoTan"
 
 
 defaults:
