@@ -3,6 +3,8 @@ main:
     url: /
   - title: "Software"
     url: /software
+  - title: "Education"
+    url: /Education
 
 
 side:
