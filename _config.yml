@@ -60,6 +60,7 @@ author:
   avatar   : "/assets/images/bio_pic.jpeg"
   bio      : "Medical Engineering student at FAU Erlangen"
   location : "Nürnberg Germany"
+    link: "https://www.google.com/maps/place/Nuremberg/@49.4360936,11.1330373,11z/data=!3m1!4b1!4m6!3m5!1s0x479f57aeb5b61cd3:0xdd5daf85a98c21b7!8m2!3d49.4521018!4d11.0766654!16zL20vMDVia2Y?entry=ttu"
   email    : "aju.george97@outlook.com "
   links:
     - label: "Linked IN"
