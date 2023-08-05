@@ -62,9 +62,9 @@ author:
   location : "Nürnberg, Germany"
   email    : "aju.george@outlook.com"
   links:
-    -label: "Linked In"
-    icon: "fa-brands fa-linkedin"
-    url: "https://www.linkedin.com/in/aju-george-216501106/"
+    - label: "Linked In"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/aju-george-216501106/"
 
 
 footer:
