@@ -14,3 +14,4 @@ title: ""
 3. ## Philips India Ltd
     - Installation and maintanence of CT/MRI scan
     - Skills: Customer management,Ttroubleshooting
+    [![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
