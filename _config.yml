@@ -65,6 +65,10 @@ author:
     - label: "Linked IN"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/aju-george-216501106/"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/aju_george__/"
+
 
 footer:
   links:
