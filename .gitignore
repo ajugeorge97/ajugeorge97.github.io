@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 Gemfile.lock
 help.txt
+assets/icons/.DS_Store
+assets/icons/.gtignore
+assets/.DS_Store

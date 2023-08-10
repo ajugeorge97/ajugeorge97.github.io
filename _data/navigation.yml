@@ -1,6 +1,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "Work Experience"
+    url: /work_experience
   - title: "Education"
     url: /Education
   - title: "Projects"
@@ -11,5 +13,9 @@ main:
 side:
   - title: "Home"
     url: /
+  - title: "Work Experience"
+    url: /work_experience
+  - title: "Education"
+    url: /Education
   - title: "Projects"
     url: /Projects
