@@ -13,6 +13,10 @@ title: ""
 </script>
 
 
+## Generative Adversarial network (GAN) for Virtual contrast enhancement in MRI
+(University Hospital Erlangen, Germany)
+
+
 ## Hemorrhage segmentation using U-Net
     Brain hemorrhage should be treated as a medical emergency.      
     What if the medical center doesn’t have an expert to look into CT images..?
@@ -24,3 +28,7 @@ title: ""
     an image augmentation technique and transfer learning worked well..
     
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fYLKIwdKyLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## B-OPSY Lung cancer detection from human breath
+(Bachelors Project: Sahrdaya College Of Engineering and Technology, Kerala India )
