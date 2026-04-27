@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - master
-      - main
-      - wip
   workflow_dispatch:
 
 permissions:
