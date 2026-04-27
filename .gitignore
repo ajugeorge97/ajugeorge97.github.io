@@ -1,8 +1,5 @@
-_site
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
-help.txt
-assets/icons/.DS_Store
-assets/icons/.gtignore
-assets/.DS_Store
+dist/
+node_modules/
+.astro/
+.DS_Store
+npm-debug.log*

@@ -1,0 +1,27 @@
+---
+const nav = [
+  { label: "About", href: "/about/" },
+  { label: "Timeline", href: "/timeline/" },
+  { label: "Projects", href: "/projects/" },
+  { label: "Research", href: "/research/" },
+  { label: "Blog", href: "/blog/" },
+  { label: "Contact", href: "/contact/" }
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-white/10 bg-ink/78 backdrop-blur-xl">
+  <nav class="section-shell flex min-h-16 items-center justify-between gap-6">
+    <a href="/" class="font-display text-sm font-extrabold tracking-wide text-frost">Aju George</a>
+    <div class="hidden items-center gap-5 md:flex">
+      {nav.map((item) => (
+        <a class="text-sm font-medium text-slate-300 transition hover:text-white" href={item.href}>{item.label}</a>
+      ))}
+    </div>
+    <a
+      href="/contact/"
+      class="rounded-full border border-cyan/35 px-4 py-2 text-sm font-semibold text-cyan transition hover:border-cyan hover:bg-cyan/10"
+    >
+      Let's talk
+    </a>
+  </nav>
+</header>

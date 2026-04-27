@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProjectCard from "../../components/ProjectCard.astro";
+import SectionHeading from "../../components/SectionHeading.astro";
+
+const projects = await getCollection("projects");
+---
+
+<BaseLayout title="Projects | Aju George">
+  <section class="section-shell py-20">
+    <SectionHeading eyebrow="Projects" title="Selected work in medical AI and MLOps." description="A focused set of projects showing the bridge between generative research and reliable infrastructure." />
+    <div class="grid gap-5 md:grid-cols-2">
+      {projects.map((project) => (
+        <ProjectCard title={project.data.title} description={project.data.description} area={project.data.area} tags={project.data.tags} href={`/projects/${project.slug}/`} />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

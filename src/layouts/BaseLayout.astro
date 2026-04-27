@@ -1,0 +1,39 @@
+---
+import SiteHeader from "../components/SiteHeader.astro";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "Portfolio of Aju George, a medical deep learning researcher and Kubernetes application developer working on breast MRI and scalable ML systems."
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <SiteHeader />
+    <main>
+      <slot />
+    </main>
+    <footer class="border-t border-white/10 py-10">
+      <div class="section-shell flex flex-col gap-3 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
+        <p>{new Date().getFullYear()} Aju George. Research, systems, and medical AI.</p>
+        <div class="flex gap-4">
+          <a class="hover:text-white" href="https://ajugeorge97.github.io/" rel="noreferrer">Personal site</a>
+          <a class="hover:text-white" href="/contact/">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
