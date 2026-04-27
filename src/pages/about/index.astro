@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SectionHeading from "../../components/SectionHeading.astro";
+---
+
+<BaseLayout title="About | Aju George">
+  <section class="section-shell grid gap-10 py-20 lg:grid-cols-[0.75fr_1.25fr]">
+    <SectionHeading eyebrow="About" title="I work where research ambition meets operational reality." />
+    <div class="story-card rounded-lg p-7 text-lg leading-9 text-slate-300">
+      <p>
+        I am a PhD Researcher and Kubernetes application developer at Universitatsklinikum Erlangen, with a Master's degree in Medical Engineering from FAU Erlangen-Nurnberg. My research focuses on AI models for virtual contrast enhancement in breast MRI.
+      </p>
+      <p class="mt-6">
+        Before moving deeper into research, I worked as a CT and MRI field service engineer across Philips, Cyrix Healthcare, and a GE Healthcare channel partner. That hands-on medical device background shapes how I think about reliability, testing, and systems that support real healthcare workflows.
+      </p>
+      <p class="mt-6">
+        My current work sits between medical imaging, deep learning, data automation, and scalable ML infrastructure: XNAT workflows, REDCap metadata, 3D Slicer tooling, Docker deployments, and Kubernetes-based AI workloads.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

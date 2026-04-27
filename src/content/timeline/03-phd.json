@@ -1,0 +1,9 @@
+{
+  "order": 3,
+  "title": "PhD",
+  "date": "2020 - 2025",
+  "period": "Synthetic MRI",
+  "description": "Focused on deep generative models for synthetic breast MRI with GAN and diffusion pipelines.",
+  "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80",
+  "alt": "Researcher reviewing medical data on monitors"
+}

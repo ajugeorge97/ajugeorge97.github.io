@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Timeline from "../../components/Timeline.astro";
+import SectionHeading from "../../components/SectionHeading.astro";
+import { timelineMilestones } from "../../data/timeline";
+---
+
+<BaseLayout title="Timeline | Aju George">
+  <section class="section-shell py-20">
+    <SectionHeading eyebrow="Timeline" title="Turning points across research and systems." description="A compact journey from engineering foundations into synthetic breast MRI and scalable ML infrastructure." />
+    <Timeline items={timelineMilestones} />
+  </section>
+</BaseLayout>

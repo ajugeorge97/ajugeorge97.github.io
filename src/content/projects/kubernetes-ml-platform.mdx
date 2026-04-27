@@ -1,0 +1,31 @@
+---
+title: "Kubernetes ML Platform"
+description: "A static-friendly MLOps architecture for reproducible training, model services, and observability."
+area: "MLOps"
+tags: ["Kubernetes", "MLOps", "CI/CD", "Observability"]
+featured: true
+year: "2026"
+links:
+  - label: "Platform Principles"
+    href: "/blog/generative-medical-ai-systems/"
+---
+
+## Problem
+
+Research models often move through notebooks, scripts, and one-off environments before anyone asks whether they can run reliably. That gap slows iteration and makes reproducibility fragile.
+
+## Approach
+
+The platform uses containerized training jobs, declarative infrastructure, model artifact tracking, and simple service boundaries. The design keeps research loops flexible while making production constraints visible early.
+
+## Architecture
+
+Diagram placeholder: Git, CI, container registry, Kubernetes jobs, artifact store, model registry, inference service, and monitoring.
+
+## Results
+
+The architecture reduces environment drift, clarifies ownership between research and platform layers, and supports repeatable experiments without requiring heavyweight backend complexity.
+
+## Learnings
+
+The best platform work feels quiet: it removes friction, documents assumptions, and gives researchers fast feedback without hiding operational reality.
