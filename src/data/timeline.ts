@@ -3,11 +3,11 @@ export const timelineMilestones = [
     id: "bachelors",
     data: {
       order: 1,
-      title: "Biomedical Engineering",
-      date: "2015 - 2019",
+      title: "Biomedical Engineering Graduation Ceremony",
+      date: "31 Dec 2021",
       period: "Foundation",
       description: "Completed biomedical engineering at Sahrdaya College of Engineering and Technology.",
-      image: "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?auto=format&fit=crop&w=900&q=80",
+      image: "/images/timeline/graduation-selfi-dad.jpg",
       alt: "Engineering workspace with instruments and notes"
     }
   },
