@@ -1,8 +1,48 @@
 export const timelineMilestones = [
+
+  {
+    id: "first-job",
+    data: {
+      order: 1,
+      title: "First Job in Medical Technology",
+      date: "16 Jul 2019",
+      period: "Starting Point",
+      description: "Joined as a CT field service engineer at Sree Ventures and Techniques (Channel Partner of Wipro-GE Healthcare)",
+      image: "/images/timeline/first-ct-installation.jpg",
+      alt: "ct field service engineer working on a CT machine in a hospital setting"
+    }
+  },
+
+    {
+    id: "philips-fse",
+    data: {
+      order: 2,
+      title: "Philips CT Field Service Engineer",
+      date: "June 2020 - Jul 2021",
+      period: "Strengthening Foundations",
+      description: "Joined as a CT/MRI field service engineer at Philips India",
+      image: "/images/timeline/philips-india-ct-fse.jpg",
+      alt: "ct field service engineer working on a CT machine in a hospital setting"
+    }
+  },
+  {
+    id: "cyrix-fse",
+    data: {
+      order: 3,
+      title: "Senior Engineer HRE at Cyrix Healthcare",
+      date: "Dec 2021 - Jul 2022",
+      period: "Building Pathways",
+      description: "Worked as High End Radiology Equipment (CT/MRI) field service engineer at Cyrix Healthcare, gaining experience with multiple vendors and complex systems. Cleared IELTS and secured admission at FAU Erlangen during this period.",
+      image: "/images/timeline/cyrix-healtcare.jpg",
+      alt: "ct field service engineer working on a CT machine in a hospital setting"
+    }
+  },
+  
+  
   {
     id: "bachelors",
     data: {
-      order: 1,
+      order: 3,
       title: "Biomedical Engineering Graduation Ceremony",
       date: "31 Dec 2021",
       period: "Proud and Grateful",
@@ -14,7 +54,7 @@ export const timelineMilestones = [
   {
     id: "masters",
     data: {
-      order: 2,
+      order: 4,
       title: "IIT Madras Fellowship",
       date: "May - Jul 2018",
       period: "Biomedical ML",
@@ -26,7 +66,7 @@ export const timelineMilestones = [
   {
     id: "phd",
     data: {
-      order: 3,
+      order: 5,
       title: "CT / MRI Field Service",
       date: "2019 - 2022",
       period: "Medical Devices",
@@ -38,7 +78,7 @@ export const timelineMilestones = [
   {
     id: "medical-ai",
     data: {
-      order: 4,
+      order: 6,
       title: "Master's in Medical Engineering",
       date: "2022 - 2025",
       period: "FAU Erlangen-Nurnberg",
@@ -50,7 +90,7 @@ export const timelineMilestones = [
   {
     id: "mlops",
     data: {
-      order: 5,
+      order: 7,
       title: "Student Assistant",
       date: "2023 - 2025",
       period: "Uniklinikum Erlangen",
@@ -62,7 +102,7 @@ export const timelineMilestones = [
   {
     id: "intersection",
     data: {
-      order: 6,
+      order: 8,
       title: "PhD + Kubernetes",
       date: "2025 - Present",
       period: "Current Direction",
