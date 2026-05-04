@@ -5,7 +5,7 @@ export const timelineMilestones = [
       order: 1,
       title: "Biomedical Engineering Graduation Ceremony",
       date: "31 Dec 2021",
-      period: "Foundation",
+      period: "Proud and Grateful",
       description: "Completed biomedical engineering at Sahrdaya College of Engineering and Technology.",
       image: "/images/timeline/graduation-selfi-dad.jpg",
       alt: "Engineering workspace with instruments and notes"
