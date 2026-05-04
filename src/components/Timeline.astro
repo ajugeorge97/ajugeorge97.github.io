@@ -1,6 +1,4 @@
 ---
-import TimelineProgress from "./TimelineProgress";
-
 interface Milestone {
   id: string;
   data: {
@@ -24,7 +22,6 @@ const milestones = [...items].sort((a, b) => a.data.order - b.data.order);
 ---
 
 <div class="relative" data-timeline>
-  <TimelineProgress client:load />
   <div class="absolute left-5 top-0 h-full w-px bg-white/12 md:left-1/2 md:-translate-x-1/2"></div>
   <div
     class="absolute left-5 top-0 w-px bg-gradient-to-b from-cyan via-violet to-cyan md:left-1/2 md:-translate-x-1/2"
@@ -62,3 +59,35 @@ const milestones = [...items].sort((a, b) => a.data.order - b.data.order);
     })}
   </div>
 </div>
+
+<script>
+  const timeline = document.querySelector<HTMLElement>("[data-timeline]");
+
+  if (timeline) {
+    const updateTimelineProgress = () => {
+      const rect = timeline.getBoundingClientRect();
+      const markers = Array.from(timeline.querySelectorAll<HTMLElement>("[data-timeline-marker]"));
+      const firstMarker = markers[0];
+      const lastMarker = markers[markers.length - 1];
+
+      if (!firstMarker || !lastMarker) return;
+
+      const firstRect = firstMarker.getBoundingClientRect();
+      const lastRect = lastMarker.getBoundingClientRect();
+      const firstCenter = firstRect.top - rect.top + firstRect.height / 2;
+      const lastCenter = lastRect.top - rect.top + lastRect.height / 2;
+      const lastEdge = lastCenter + lastRect.height / 2;
+      const span = Math.max(lastEdge - firstCenter, 1);
+      const activationLine = window.innerHeight * 0.9;
+      const current = activationLine - rect.top;
+      const progress = Math.min(Math.max((current - firstCenter) / span, 0), 1);
+      const fillHeight = firstCenter + progress * span;
+
+      timeline.style.setProperty("--timeline-progress", `${fillHeight}px`);
+    };
+
+    updateTimelineProgress();
+    window.addEventListener("scroll", updateTimelineProgress, { passive: true });
+    window.addEventListener("resize", updateTimelineProgress);
+  }
+</script>
